@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0;
+    padding-left:40px;
+    padding-right:40px;
+}
+.section_01{
+    background-color: #1f2937;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 500px;
+    padding: 0 220px;
+    margin: 0;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-top: 60px;
+}
+img{
+    display: block;
+    width: 1000px;
+    height: 260px;
+}
+.basic_info h1{
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.basic_info p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+.section_02{
+    background-color: #fff;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items{
+    display: flex;
+    gap: 40px;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+.section_02 h1{
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 50px;
+
+}
+.section_03{
+    background-color: #e5e7eb;
+    height: 400px;
+    text-align: center;
+}
+blockquote{
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: italic;
+    color: #666e7b;
+    margin:100px 300px;
+    margin-bottom: 0;
+    text-align: left;
+}
+cite{
+    margin-right: -480px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+}
+.section_04{
+    background-color: #fff;
+}
+.sign_up{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+    background-color: #3882f6;
+    margin:100px 200px;
+    border-radius: 10px;
+}
+.part h1{
+    color: #f9faf8;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.part p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+    
+}
+.sign_up button{
+    border: #e5e7eb solid 3px;
+    color: #e5e7eb;
+    font-weight: 900;
+    font-size: 18px;
+}
+footer{
+    background-color: #1f2937 ;
+    height: 100px;
+    color: #e5e7eb;
+    text-align: center;
+}
+footer p{
+    margin-top: 40px;
+    font-size: 18px;
+}
